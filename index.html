@@ -1,148 +1,176 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Nidhi Singh Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Nidhi Singh Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-image: url('images/Data analysis.png'); /* Path to your background image */
+            background-size: cover; /* Ensure the image covers the entire background */
+            background-position: center; /* Center the image on the page */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-attachment: fixed; /* Keep the background image fixed when scrolling */
+            color: #ffffff; /* Set a default text color for readability */
+        }
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+        #intro {
+            background: rgba(0, 0, 0, 0.5); /* Optional: Add a dark overlay to enhance text visibility */
+            padding: 50px 0;
+            text-align: center;
+        }
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Nidhi Singh Portfolio<br />
-						</h1>
-						<p>Data Analyst skilled in SQL, Tableau, Excel and R <a href="https://www.linkedin.com/in/nidhisinghmom/">@NidhiSinghAnalyst</a> 
-						</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        #intro h1, #intro p {
+            color: #ffffff; /* Ensure the intro text is visible against the background */
+        }
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Nidhi Singh Analyst</a>
-					</header>
+        header#header, nav#nav, footer#footer {
+            background: rgba(0, 0, 0, 0.7); /* Semi-transparent backgrounds for header, nav, and footer */
+            padding: 10px 0;
+            color: #ffffff;
+        }
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-							
-						</ul>
-						<ul class="icons">
-							
-							
-							<li><a href="https://www.linkedin.com/in/nidhisinghmom/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
-							<li><a href="https://github.com/NidhiSinghAnalyst" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+        article.post.featured .image.main img {
+            border-radius: 10px; /* Add rounded corners to images within posts */
+        }
 
-				<!-- Main -->
-					<div id="main">
+        .actions .button {
+            background-color: #ff7f50; /* Custom button color */
+            border: none;
+            color: #ffffff;
+        }
+    </style>
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									
-									<h2><a href="https://github.com/NidhiSinghAnalyst/Data-Cleaning-Project-sql">Data Cleaning in SQL<br />
-									</a></h2>
-									<p>In this project we take raw housing data and transform
-										it in SQL Server to make it more usable for analysis.</p>
-								</header>
-								<a href="https://github.com/NidhiSinghAnalyst/Data-Cleaning-Project-sql" class="image main"><img src="images/housing-banner-01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/NidhiSinghAnalyst/Data-Cleaning-Project-sql" class="button large">View Project</a></li>
-								</ul>
-							</article>
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/NidhiSinghAnalyst/Exploratory-data-analysis-project-sql">Data Exploration in SQL<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/NidhiSinghAnalyst/Exploratory-data-analysis-project-sql" class="image fit"><img src="images/download.jpg" alt="" /></a>
-									<p>Data Exploration of Covid 19 Dataset in SQL Server. </p>
-									<ul class="actions special">
-										<li><a href="https://github.com/NidhiSinghAnalyst/Exploratory-data-analysis-project-sql" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/NidhiSinghAnalyst/Tableau-Airbnb-project">Tableau Projects<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/NidhiSinghAnalyst/Tableau-Airbnb-project" class="image fit"><img src="images/tabdownload.png" alt="" /></a>
-									<p></p>
-									<ul class="actions special">
-										<li><a href="https://github.com/NidhiSinghAnalyst/Tableau-Airbnb-project" class="button">View Projects</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/NidhiSinghAnalyst/Housing-price-analysis-using-R">Housing Price Analysis using R<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/NidhiSinghAnalyst/Housing-price-analysis-using-R" class="image fit"><img src="images/housingdata.jpeg" alt="" /></a>
-									<p>
-										The project involved analyzing housing sales data to build predictive models for house prices. Two linear regression models were constructed: one utilizing four strongly correlated features—sqft_living, grade, sqft_above, and sqft_living15—and another incorporating all available features. The models were trained, tested, and evaluated for predictive accuracy, with the root mean squared error (RMSE) used as a performance metric.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/NidhiSinghAnalyst/Housing-price-analysis-using-R" class="button">View Projects</a></li>
-									</ul>
-								</article>
-								
+        <!-- Intro -->
+        <div id="intro">
+            <h1>Nidhi Singh Portfolio<br /></h1>
+            <p>Data Analyst skilled in SQL, Tableau, Excel, and R <a href="https://www.linkedin.com/in/nidhisinghmom/">@NidhiSinghAnalyst</a></p>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
 
-						
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Nidhi Singh Analyst</a>
+        </header>
 
-				
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Windsor, Ontario</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(226) 961-2769</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">nidhisgahlawat586@gmail.com</a></p>
-							</section>
-							<section>
-								
-							</section>
-						</section>
-					</footer>
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">Projects</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/nidhisinghmom/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/NidhiSinghAnalyst" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
 
-				<!-- Copyright --> 
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+        <!-- Main -->
+        <div id="main">
 
-			</div>
+            <!-- Featured Post -->
+            <article class="post featured">
+                <header class="major">
+                    <h2><a href="https://github.com/NidhiSinghAnalyst/Data-Cleaning-Project-sql">Data Cleaning in SQL</a></h2>
+                    <p>In this project, I cleaned and transformed raw housing data in SQL Server to make it more usable for analysis.</p>
+                </header>
+                <a href="https://github.com/NidhiSinghAnalyst/Data-Cleaning-Project-sql" class="image main"><img src="images/housing-banner-01.jpg" alt="Housing Data Project" /></a>
+                <ul class="actions special">
+                    <li><a href="https://github.com/NidhiSinghAnalyst/Data-Cleaning-Project-sql" class="button large">View Project</a></li>
+                </ul>
+            </article>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+            <!-- Posts -->
+            <section class="posts">
+                <article>
+                    <header>
+                        <h2><a href="https://github.com/NidhiSinghAnalyst/Exploratory-data-analysis-project-sql">Data Exploration in SQL</a></h2>
+                    </header>
+                    <a href="https://github.com/NidhiSinghAnalyst/Exploratory-data-analysis-project-sql" class="image fit"><img src="images/download.jpg" alt="Covid Data Exploration Project" /></a>
+                    <p>Data exploration of Covid-19 dataset in SQL Server.</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/NidhiSinghAnalyst/Exploratory-data-analysis-project-sql" class="button">View Project</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <h2><a href="https://github.com/NidhiSinghAnalyst/Tableau-Airbnb-project">Tableau Projects</a></h2>
+                    </header>
+                    <a href="https://github.com/NidhiSinghAnalyst/Tableau-Airbnb-project" class="image fit"><img src="images/tabdownload.png" alt="Tableau Projects" /></a>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/NidhiSinghAnalyst/Tableau-Airbnb-project" class="button">View Projects</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <h2><a href="https://github.com/NidhiSinghAnalyst/Housing-price-analysis-using-R">Housing Price Analysis using R</a></h2>
+                    </header>
+                    <a href="https://github.com/NidhiSinghAnalyst/Housing-price-analysis-using-R" class="image fit"><img src="images/housingdata.jpeg" alt="Housing Price Analysis in R" /></a>
+                    <p>The project involved analyzing housing sales data to build predictive models for house prices.</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/NidhiSinghAnalyst/Housing-price-analysis-using-R" class="button">View Project</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <h2><a href="https://github.com/NidhiSinghAnalyst/Power-BI">Data Professional Survey Dashboard using Power BI</a></h2>
+                    </header>
+                    <a href="https://github.com/NidhiSinghAnalyst/Power-BI" class="image fit"><img src="images/PowerBI.png" alt="Power BI Project" /></a>
+                    <p>Data Professional Survey Dashboard using Power BI.</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/NidhiSinghAnalyst/Power-BI" class="button">View Project</a></li>
+                    </ul>
+                </article>
+            </section>
 
-	</body>
+            <!-- Contact Section -->
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Address</h3>
+                    <p>Windsor, Ontario</p>
+                </section>
+                <section>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+12269612769">(226) 961-2769</a></p>
+                </section>
+                <section>
+                    <h3>Email</h3>
+                    <p><a href="mailto:nidhisgahlawat586@gmail.com">nidhisgahlawat586@gmail.com</a></p>
+                </section>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div id="copyright">
+                <ul>
+                    <li>&copy; Nidhi Singh Portfolio</li>
+                    <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
